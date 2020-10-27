@@ -1,6 +1,6 @@
 {
   "main": {
-    "name":"Hello!",
+    "name":"Shrijith Vakula",
     "description":"My name is Shrijith Vakula. I am a student in Dublin High School majoring in Mechanical Engineering.",
     "image":"profilepic.jpg",
     "bio":"I am 17 years old, and I am currently a senior at Dublin High School, Dublin CA. I am smart, resourceful, and a fast learner. I’m very good with computers. I’m very good at following instructions, and work in an efficient manner. I always love a challenge and I work very well independently, and as a team",
@@ -85,10 +85,6 @@
       {
         "name":"Computer Science",
         "level":"60%"
-      },
-      {
-        "name":"Humanities",
-        "level":"60%"
       }
     ]
   },
@@ -98,13 +94,25 @@
         "title":"Resume Website",
         "category":"A React based resume website that I adapted into my own Portfolio",
         "image":"resume-website.jpg",
-        "url":"svakula.me"
+        "url":"https://svakula.me"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Sunk",
+        "category":"A song I made and released to most major streaming platforms",
+        "image":"album-art.jpg",
+        "url":"https://open.spotify.com/artist/7xQ540opvsgTsQI8mApd9w"
+      },
+      {
+        "title":"Cisco Internship In-Band Network Telemetry Collector",
+        "category":"I participated in an internship over the summer of 2020 at Cisco Systems and helped conceptualize and develop an In-Band Network Telemetry Collector and Sink",
+        "image":"int-collector.jpg",
+        "url":"https://github.com/ishaansathaye/cisco-project"
+      },
+      {
+        "title":"Python-based Raspberry Pi Sense Hat Logger",
+        "category":"For the Entrepreneurship Project 2019-2020, I created a logging tool for a car-safey raspberry pi tool",
+        "image":"python-ssl.jpg",
+        "url":"https://github.com/ishaansathaye/cisco-project"
       }
     ]
   }

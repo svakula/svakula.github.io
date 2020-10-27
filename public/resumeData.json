@@ -8,7 +8,6 @@
     "email": "svakula31@gmail.com",
     "phone": "510-935-6021",
     "github":"https://github.com/svakula",
-    "project":"https://google.com",
     "address":{
       "street":"",
       "city":"Dublin",
@@ -18,11 +17,6 @@
     "website": "https://google.com",
     "resumedownload":"https://drive.google.com/file/d/1NvRU8ESXQCfHgOQhGBi9y_urlP7J06uI/view?usp=sharing",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://google.com",
-        "className":"fa fa-facebook"
-      },
       {
         "name":"twitter",
         "url":"http://twitter.com/svakulax",
@@ -46,7 +40,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"My skills encompass a large part of the science and engineering side with a forte in Computer Science and Engineering. My creative talents include music production and origami.",
+    "skillmessage":"My skills encompass a large part of the science and engineering side with a forte in Computer Science, Engineering, and Music Production. My creative talents include music production and origami.",
     "education":[
       {
         "school":"Dublin High School",
@@ -104,7 +98,7 @@
       },
       {
         "title":"Cisco Internship In-Band Network Telemetry Collector",
-        "category":"I participated in an internship over the summer of 2020 at Cisco Systems and helped conceptualize and develop an In-Band Network Telemetry Collector and Sink",
+        "category":"Summer 2020 Cisco Internship Project",
         "image":"int-collector.jpg",
         "url":"https://github.com/ishaansathaye/cisco-project"
       },
@@ -112,7 +106,7 @@
         "title":"Python-based Raspberry Pi Sense Hat Logger",
         "category":"For the Entrepreneurship Project 2019-2020, I created a logging tool for a car-safey raspberry pi tool",
         "image":"python-ssl.jpg",
-        "url":"https://github.com/ishaansathaye/cisco-project"
+        "url":"https://github.com/svakula/SenseHatLogger"
       }
     ]
   }

@@ -1,14 +1,14 @@
 {
   "name": "photography",
   "version": "3.0.0",
-  "description": "A jekyll website for photographer cum developer",
+  "description": "A jekyll website for photographers",
   "main": "npmfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramswaroop/photography.git"
+    "url": "git+https://github.com/svakula/svakula.github.io"
   },
   "keywords": [
     "photography",
@@ -19,12 +19,12 @@
     "portfolio",
     "portfolio website"
   ],
-  "author": "Ram Patra",
+  "author": "Shrijith Vakula",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ramswaroop/photography/issues"
+    "url": "https://svakula.github.io/index.html"
   },
-  "homepage": "https://github.com/ramswaroop/photography#readme",
+  "homepage": "https://svakula.github.io/index.html",
   "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",

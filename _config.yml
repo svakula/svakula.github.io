@@ -2,11 +2,11 @@
 baseurl: "https://svakula.github.io"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: "UA-46465113-2"
+google_analytics: ""
 
 # UI configs
 title: "Photography by Shrijith Vakula"
-subtitle: "See the world through my eyes!"
+subtitle: "Stuff I Found 'Cool' In The Moment"
 author: "Shrijith Vakula"
 header:
  title: "Photography"
@@ -14,12 +14,12 @@ header:
 footer:
  name: "I'm Shrijith Vakula"
  bio: "Aspiring amateur photographer."
- github: ""
-web_design: "AJ"
+ github: "https://github.com/svakula"
+web_design: ""
 social_urls:
-  facebook: "https://www.facebook.com/ramswaroop"
-  twitter: "https://www.twitter.com/ram__patra"
-  instagram: "https://www.instagram.com/ram_patra"
-  dribbble: "https://dribbble.com/rampatra"
-  linkedin: "https://in.linkedin.com/in/ram-patra"
-  github: "https://www.github.com/rampatra"
+  facebook: ""
+  twitter: "https://www.twitter.com/svakulax"
+  instagram: "https://www.instagram.com/spleenjith"
+  dribbble: ""
+  linkedin: "https://www.linkedin.com/in/shrijith-vakula-178649194/"
+  github: "https://www.github.com/svakula"

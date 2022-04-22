@@ -1,68 +1,210 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Shrijith Vakula's Photography</title>
-  </head>
-  <body>
-    <main>
-      <!-- landing area -->
-      <div id="landing">
-        <div id="landing-text">
-          <div id="landing-text-inner">
-            <h1>Shrijith Vakula's Photography</h1>
-            <h2></h2>
-            <a href="#images" class="btn" id="view-work">View Work</a>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moments</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/441f2bc110.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <script src="./js/app.js"></script>
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="column_30">
+          <div class="header-logo">
+            <p>MOMENTS</p>
           </div>
         </div>
-        <div id="landing-image"></div>
-      </div>
-
-      <div id="images">
-        <div id="header">
-          <h2>Scenes</h2>
-        </div>
-        <img src="https://source.unsplash.com/1600x900/?nature,water" alt="">
-        <div class="caption">
-          <h3>Water</h3>
-          <p></p>
-        </div>
-        <img src="https://source.unsplash.com/1600x900/?nature,trees" alt="">
-        <div class="caption">
-          <h3>Trees</h3>
-          <p></p>
-        </div>
-        <img src="https://source.unsplash.com/1600x900/?nature,flowers" alt="">
-        <div class="caption">
-          <h3>Flowers</h3>
-          <p></p>
-        </div>
-        <img src="https://source.unsplash.com/1600x900/?nature,animals" alt="">
-        <div class="caption">
-          <h3>Animals</h3>
-          <p></p>
-        </div>
-        <img src="https://source.unsplash.com/1600x900/?nature,clouds" alt="">
-        <div class="caption">
-          <h3>Clouds</h3>
-          <p></p>
+        <div class="column_20"></div>
+        <div class="column_20"></div>
+        <div class="column_20"></div>
+        <div class="column_10">
+          <button class="ham-menu">
+            <ul class="sub-list-ham">
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">GALLERIES</a></li>
+              <li> <a href="#">CONTACT</a></li>
+            </ul>
+          </button>
+          <ul class="header-menu">
+            <li class="sub-menu">
+              <a href="#">ABOUT</a>
+              <ul class="sub-list">
+                <a href="#">BLOG</a>
+                <a href="#">FOTO</a>
+                <a href="#">NEWS</a>
+              </ul>
+            </li>
+            <li><a href="#">GALLERIES</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
         </div>
       </div>
-    </main>
+    </header>
+    <div class="underline">
+    </div>
+    <section class="slider-main">
+      <div class="row">
+        <div class="column_100">
+          <div class="fader"></div>
+        </div>
 
+      </div>
+    </section>
+    <!-- <section class="slider-resp">
+      <div class="row">
+        <div class="column_100">
+          <img src="images/_DSC0045.jpg" alt="">
+        </div>
+      </div>
+    </section> -->
+    <div class="underline">
+    </div>
+    <section class="about-main">
+      <div class="row">
+        <div class="column_100">
+          <div class="about-header">
+            <h2>ABOUT</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column_100">
+          <div class="about-content">
+            <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle
+              elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym
+              do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="underline">
+    </div>
+    <section class="galleries-main">
+      <div class="row">
+        <div class="column_100">
+          <div class="galleries-header">
+            <h2>GALLERIES</h2>
+          </div>
+        </div>
+      </div>
+      <div class="galleries-images images">
+        <div class="row">
+          <div class="column_20 images">
+            <img id="myImg" src="images/_DSC0287.jpg" alt="Lorem Ipsum" width="300" height="200">
+            <div id="myModal" class="modal">
+              <span class="close">×</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
+            <div class="middle">
+              <!-- <div class="text">LOREM</div> -->
+            </div>
+          </div>
+          <div class="column_20 images">
+            <img src="images/_DSC0125.jpg" alt="" />
+            <div class="middle">
+              <!-- <div class="text">LOREM</div> -->
+            </div>
+          </div>
+          <div class="column_20 images">
+            <img src="images/_DSC0033.jpg" alt="">
+            <div class="middle">
+              <!-- <div class="text">LOREM</div> -->
+            </div>
+          </div>
+          <div class="column_20 images">
+            <img src="images/_DSC0683.jpg" alt="">
+            <div class="middle">
+              <!-- <div class="text">LOREM</div> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column_20 images">
+            <img src="images/_DSC0560.jpg" alt="">
+            <div class="middle">
+              <!-- <div class="text">LOREM</div> -->
+            </div>
+          </div>
+          <div class="column_20 images">
+            <img src="images/_DSC0124.jpg" alt="">
+            <div class="middle">
+              <!-- <div class="text">LOREM</div> -->
+            </div>
+          </div>
+          <div class="column_20 images">
+            <img src="images/_DSC0013.jpg" alt="">
+            <div class="middle">
+              <!-- <div class="text">LOREM</div> -->
+            </div>
+          </div>
+          <div class="column_20 images">
+            <img src="images/_DSC0083.jpg" alt="">
+            <div class="middle">
+              <!-- <div class="text">LOREM</div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="underline">
+    </div>
+    <section class="contact-main">
+      <div class="row">
+        <div class="column_100">
+          <div class="contact-header">
+            <h2>CONTACT</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column_100">
+          <div class="contact-content">
+            <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle
+              elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym
+              do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="underline">
+    </div>
     <footer>
-      <h3>Socials</h3>
-      <p>Instagram: <<strong>Insta</strong></p>
-      <p>Email: <<strong>email</strong></p>
+      <div class="row">
+        <div class="column_20">
+          <div class="footer-logo">
+            <p>MOMENTS</p>
+          </div>
+        </div>
+        <div class="column_20">
+          <p id="copy">Copyright 2017 | All Rights Reserved</p>
+        </div>
+
+        <div class="column_30">
+          <div class="footer-sm">
+            <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-square fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-behance-square fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-flickr fa-3x" aria-hidden="true"></i>
+          </div>
+
+
+        </div>
+      </div>
     </footer>
+  </div>
 
-    <script
-  src="http://code.jquery.com/jquery-3.4.0.min.js"
-  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-  crossorigin="anonymous"></script>
 
-  <script src=JS/main.js></script>
-  </body>
+</body>
+
 </html>
